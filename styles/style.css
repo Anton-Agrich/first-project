@@ -1,0 +1,353 @@
+/* Header */
+
+.header {
+  margin: 92px 50px 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header-links-list {
+  display: flex;
+  gap: 32px;
+  line-height: normal;
+}
+
+.header-links-list-item {
+  list-style-type: circle;
+}
+
+.header-links-list-item-no-bulit {
+  list-style-type: none;
+}
+
+.header-link {
+  text-underline-position: under;
+}
+
+.header-logo {
+  margin-right: 145px;
+  width: 148px;
+  height: 105px;
+}
+
+.header-logo-image {
+  width: inherit;
+  height: inherit;
+}
+
+.address {
+  width: 240px;
+  font-style: normal;
+  line-height: 135%;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Main Section */
+
+/* COVER - eto translit */
+
+.cover {
+  padding: 165px 50px 50px;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 1100px;
+  background-image: url(/images/cover.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cover-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.aligned-text-center {
+  padding-right: 60px;
+  text-align: center;
+  line-height: 100%;
+}
+
+.aligned-text-right {
+  text-align: right;
+  line-height: 100%;
+  padding-bottom: 137px;
+}
+
+.leter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-leter-spacing {
+  letter-spacing: 0;
+}
+
+.cover-discription {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.cover-description-text {
+  padding-right: 84px;
+  word-spacing: 17px;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  background: transparent;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+/* Lots - eto toje translit */
+
+.lots {
+  margin: 180px 50px 181px;
+  font-family: Raleway;
+  font-style: normal;
+}
+
+.lots-heading {
+  padding-bottom: 27px;
+  padding-left: 40px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.lots-card-list-item {
+  flex-grow: 1;
+  width: 430px;
+  min-height: 450px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.card-type-film {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  background-image: url(/images/card-lot-01.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-type-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  background-image: url(/images/card-lot-02.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-type-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  background-image: url(/images/card-lot-03.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  position: relative;
+  padding: 50px 40px 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card-text {
+  position: relative;
+  padding: 0 40px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots-look-more-links {
+  padding-left: 40px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  text-underline-position: under;
+}
+
+/* About - a eto uje English */
+
+.about {
+  margin: 0 50px 180px;
+  display: flex;
+  gap: 25px;
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  line-height: normal;
+}
+
+.about-logo {
+  margin: 0 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.about-logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about-title {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* footer - i eto toje English */
+
+.footer {
+  margin: 180px 50px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-menu {
+  font-size: 18px;
+}
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-menu-list-item {
+  list-style-type: none;
+}
+
+.footer-menu-link {
+  text-underline-position: under;
+}
+
+.footer-menu-link-active {
+  text-decoration: none;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 240px;
+  gap: 48px;
+}
+
+.footer-social-list-item {
+  list-style-type: none;
+}
+
+.footer-social-link {
+  display: block;
+  width: 100%;
+}
+
+.footer-social-icon {
+  width: 100%;
+}
